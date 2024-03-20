@@ -13,3 +13,58 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+@font-face {
+  font-family: 'Biro Script Plus';
+  src: url('./components/assets/font/BiroScriptPlus.ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Messina Sans Mono';
+  src: url('./components/assets/font/MessinaSansMono-Regular.ttf');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Messina Sans Mono';
+  src: url('./components/assets/font/MessinaSansMono-Regular.ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Right Grotesk';
+  src: url('./components/assets/font/RightGrotesk-CompactBlack.otf');
+  font-weight: 900;
+  font-style: normal;
+}
