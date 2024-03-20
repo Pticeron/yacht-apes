@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/yacht-apes/static/css/main.7acaea2f.css",
+    "main.js": "/yacht-apes/static/js/main.07d3183d.js",
+    "index.html": "/yacht-apes/index.html",
+    "main.7acaea2f.css.map": "/yacht-apes/static/css/main.7acaea2f.css.map",
+    "main.07d3183d.js.map": "/yacht-apes/static/js/main.07d3183d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7acaea2f.css",
+    "static/js/main.07d3183d.js"
+  ]
+}
