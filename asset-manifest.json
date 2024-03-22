@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/yacht-apes/static/css/main.24537712.css",
-    "main.js": "/yacht-apes/static/js/main.7a8f62de.js",
+    "main.js": "/yacht-apes/static/js/main.cc88c7ef.js",
     "static/media/img1.png": "/yacht-apes/static/media/img1.a2305c712f160da5da9c.png",
     "static/media/BiroScriptPlus.ttf": "/yacht-apes/static/media/BiroScriptPlus.8f40d0e26da891712200.ttf",
     "static/media/RightGrotesk-CompactBlack.otf": "/yacht-apes/static/media/RightGrotesk-CompactBlack.965367bf710f347153cc.otf",
@@ -11,10 +11,10 @@
     "index.html": "/yacht-apes/index.html",
     "static/media/twitter.svg": "/yacht-apes/static/media/twitter.94b3f8d31d54af653f3a0383f46e96a8.svg",
     "main.24537712.css.map": "/yacht-apes/static/css/main.24537712.css.map",
-    "main.7a8f62de.js.map": "/yacht-apes/static/js/main.7a8f62de.js.map"
+    "main.cc88c7ef.js.map": "/yacht-apes/static/js/main.cc88c7ef.js.map"
   },
   "entrypoints": [
     "static/css/main.24537712.css",
-    "static/js/main.7a8f62de.js"
+    "static/js/main.cc88c7ef.js"
   ]
 }
