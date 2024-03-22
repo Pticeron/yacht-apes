@@ -1,71 +1,53 @@
-// import { useState, useEffect } from 'react';
-// import { NavLink } from 'react-router-dom';
-
+import {
+  Nav,
+  List,
+  ListItem,
+  IconDiv,
+  Icon,
+  IconItem,
+} from './Navigation.styled';
+import Logo from '../assets/img/logo.png';
+import { Link, NavLink } from 'react-router-dom';
+import game from '../assets/img/game.svg';
+import yacht from '../assets/img/yacht.svg';
+import twitter from '../assets/img/twitter.svg';
 
 export const Navigation = () => {
-//   const [activeLink, setActiveLink] = useState('home');
-//   const [scrolled, setScrolled] = useState(false);
-
-//   useEffect(() => {
-//     const onScroll = () => {
-//       if (window.scrollY > 50) {
-//         setScrolled(true);
-//       } else {
-//         setScrolled(false);
-//       }
-//     };
-
-//     window.addEventListener('scroll', onScroll);
-
-//     return () => window.removeEventListener('scroll', onScroll);
-//   }, []);
-
-//   const onUpdateActiveLink = value => {
-//     setActiveLink(value);
-//   };
-
-//   return (
-//     <div>
-//       <nav >
-//         <div>
-//           <NavLink to="/" 
-//           className={
-//             activeLink === 'logo' ? 'active navbar-link' : 'navbar-link'
-//           }
-//           onClick={() => onUpdateActiveLink('home')}>Logo</NavLink>
-//           <ul>
-//             <li>
-//               <NavLink to="/">ABOUT</NavLink>
-//             </li>
-//             <li>
-//               <NavLink to="/">M-map</NavLink>
-//             </li>
-//             <li>
-//               <NavLink to="/">Faq</NavLink>
-//             </li>
-//             <li>
-//               <NavLink to="/">ARTS</NavLink>
-//             </li>
-//             <li>
-//               <NavLink to="/">MINT</NavLink>
-//             </li>
-//           </ul>
-//           <button>Close</button>
-//         </div>
-//         <div>
-//           <ul>
-//             <li>
-//               <svg></svg>
-//             </li>
-//             <li>
-//               <svg></svg>
-//             </li>
-//             <li>
-//               <svg></svg>
-//             </li>
-//           </ul>
-//         </div>
-//       </nav>
-//     </div>
-//   );
+  return (
+    <>
+      <Nav>
+        <Link>
+          <img src={Logo} alt="Logo"></img>
+        </Link>
+        <List>
+          <ListItem>
+            <NavLink to="/about">ABOUT</NavLink>
+          </ListItem>
+          <ListItem>
+            <NavLink to="/m-map">M-map</NavLink>
+          </ListItem>
+          <ListItem>
+            <NavLink to="/faq">Faq</NavLink>
+          </ListItem>
+          <ListItem>
+            <NavLink to="/arts">ARTS</NavLink>
+          </ListItem>
+          <ListItem>
+            <NavLink to="/mint">MINT</NavLink>
+          </ListItem>
+        </List>
+        <IconDiv>
+          <IconItem>
+            <Icon src={game} alt="Game"></Icon>
+          </IconItem>
+          <IconItem>
+            <Icon src={yacht} alt="Yacht"></Icon>
+          </IconItem>
+          <IconItem>
+            <Icon src={twitter} alt="Twitter"></Icon>
+          </IconItem>
+        </IconDiv>
+      </Nav>
+    </>
+  );
 };
