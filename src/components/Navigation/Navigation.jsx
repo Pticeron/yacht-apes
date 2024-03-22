@@ -5,10 +5,12 @@ import {
   IconDiv,
   Icon,
   IconItem,
-  StyledLink
+  StyledLink,
+  NavMenu,
+  ButtonClose,
+  LogoLink
 } from './Navigation.styled';
 import Logo from '../assets/img/logo.png';
-import { Link } from 'react-router-dom';
 import game from '../assets/img/game.svg';
 import yacht from '../assets/img/yacht.svg';
 import twitter from '../assets/img/twitter.svg';
@@ -17,9 +19,10 @@ export const Navigation = () => {
   return (
     <>
       <Nav>
-        <Link>
+        <NavMenu>
+        <LogoLink>
           <img src={Logo} alt="Logo"></img>
-        </Link>
+        </LogoLink>
         <List>
           <ListItem>
             <StyledLink to="/about">ABOUT</StyledLink>
@@ -36,7 +39,13 @@ export const Navigation = () => {
           <ListItem>
             <StyledLink to="/mint">MINT</StyledLink>
           </ListItem>
+          <ListItem>
+          <ButtonClose type='button'>CLOSE</ButtonClose>
+          </ListItem>
         </List>
+       
+        </NavMenu>
+        
         <IconDiv>
           <IconItem>
             <Icon src={game} alt="Game"></Icon>
