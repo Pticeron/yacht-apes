@@ -1,16 +1,16 @@
+import { NavLink } from 'react-router-dom';
 import styled from 'styled-components';
 
 export const Nav = styled.div`
   width: 344px;
   display: flex;
-  background-color: #DC3B5A;
+  background-color: #dc3b5a;
   margin: 0 auto;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
 
   @media (min-width: 768px) {
     width: 736px;
-    
   }
   @media (min-width: 1440px) {
     display: flex;
@@ -42,11 +42,27 @@ export const List = styled.ul`
 
 export const ListItem = styled.li`
   display: flex;
-  width: 80px;
+  width: 48px;
+  height: 48px;
+
+  @media (min-width: 1440px) width: 80px;
   height: 80px;
   text-transform: uppercase;
   align-items: center;
   justify-content: center;
+`;
+
+export const StyledLink = styled(NavLink)`
+  font-family: 'Messina Sans Mono';
+  font-wight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #1e1e1e;
+
+  &:hover {
+    color: #ffffff;
+    text-decoration: underline;
+  }
 `;
 
 export const IconDiv = styled.ul`

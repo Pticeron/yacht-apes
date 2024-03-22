@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
+position: relative;
   width: 360px;
   margin: 0 auto;
   background-color: black;
@@ -14,11 +15,10 @@ export const Container = styled.div`
   }
 `;
 
-
 export const Section = styled.section`
-  position: relative;
+  
   width: 344px;
-  height: 612px;
+ 
   background-color: #dc3b5a;
   margin: 0 auto;
   border-bottom-left-radius: 12px;
@@ -30,23 +30,25 @@ export const Section = styled.section`
 
   @media (min-width: 768px) {
     width: 736px;
+    height: 421px;
   }
 
   @media (min-width: 1440px) {
     width: 1408px;
+    height: 677px;
   }
 `;
 
 export const Handwriting = styled.h4`
-  position: absolute;
-  top: 213px;
-  left: 211px;
   font-family: 'Biro Script Plus';
   font-weight: 400;
   font-size: 16px;
   line-height: 27px;
 
-  @media (min-width: 736px) {
+  @media (min-width: 768px) {
+    position: absolute;
+    top: 124px;
+    left: 72px;
     font-size: 20px;
     line-height: 33px;
   }
@@ -54,32 +56,44 @@ export const Handwriting = styled.h4`
   @media (min-width: 1440px) {
     font-size: 24px;
     line-height: 40px;
+    top: 133px;
+  left: 211px;
   }
 `;
 
 export const TwoHandwritihg = styled(Handwriting)`
-  margin-bottom: 6px;
-  top: 447px;
+margin-bottom: 6px;
+
+@media (min-width: 768px) {
+  position: absolute;
+  top: 265px;
+  left: 72px;
+}
+
+@media (min-width: 1440px) {
+    top: 367px;
   left: 331px;
+}
 `;
 
 export const Title = styled.h1`
-  position: absolute;
-  top: 253px;
-  left: 211px;
-
   font-family: 'Right Grotesk';
   font-weight: 900;
   font-size: 44px;
   line-height: 44px;
   margin-bottom: 8px;
 
-  @media (min-width: 736px) {
+  @media (min-width: 768px) {
+    position: absolute;
+    top: 157px;
+    left: 73px;
     font-size: 92px;
     line-height: 92px;
   }
 
   @media (min-width: 1440px) {
+  top: 173px;
+  left: 211px;
     font-size: 164px;
     line-height: 164px;
   }
@@ -89,7 +103,11 @@ export const HeroImg = styled.img`
   width: 216px;
   height: 284px;
 
-  @media (min-width: 736px) {
+  @media (min-width: 768px) {
+    position: absolute;
+    z-index: 100;
+    top: 35px;
+    left: 206px;
     width: 283px;
     height: 386px;
   }
@@ -97,15 +115,12 @@ export const HeroImg = styled.img`
   @media (min-width: 1440px) {
     width: 463px;
     height: 612px;
-    position: absolute;
-    z-index: 100;
-    top: 81px;
+    top: 65px;
     left: 461px;
 `;
 
 export const Button = styled.button`
-position: absolute;
-display: inline-block;
+display: block;
   width: 216px;
   border-style: none;
   border-radius: 8px;
@@ -115,19 +130,25 @@ display: inline-block;
   margin-bottom: 12px;
 
   font-family: 'Right Grotesk';
-  font-weight: 900;
+    font-weight: 900;
   font-size: 16px;
   line-height: 19px;
 
-  @media (mix-width: 736px) {
+  
+
+  @media (mix-width: 768px) {
+    position: absolute;
+    top: 399px;
+  left: 490px;
     width: 190px;
     padding: 10px 61px 12px 61px;
     border-radius: 12px;
   }
 
   @media (min-width: 1440px) {
-    top: 542px;
-    left: 895px;
+    position: absolute;
+    top: 526px;
+    left: 879px;
 
     width: 337px;
     padding: 16px 109px 20px 109px;
@@ -137,27 +158,30 @@ display: inline-block;
 `;
 
 export const Text = styled.p`
-  position: absolute;
-  top: 457px;
-  left: 895px;
-
-  display: block;
   width: 217px;
   font-family: 'Messina Sans Mono';
   font-weight: 400;
   font-size: 12px;
   line-height: 14px;
   text-transform: uppercase;
-
-  @media (mix-width: 736px) {
+  text-align-last: center;
+  
+ 
+  @media (mix-width: 768px) {
+    top: 327px;
+    left: 490px;
     width: 190px;
-    text-align: justify;
+    
   }
 
   @media (min-width: 1440px) {
+    position: absolute;
+    top: 457px;
+    left: 895px;
     width: 400px;
     text-align: justify;
     font-size: 19px;
     line-height: 16px;
+    text-indent: 100px;
   }
 `;

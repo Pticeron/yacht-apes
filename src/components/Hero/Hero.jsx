@@ -8,14 +8,18 @@ import {
   Button,
   Text,
   TwoHandwritihg,
+  
 } from './Herostyled';
 
 export const Hero = () => {
+
+
   return (
     <Container>
       <Section>
         <Handwriting>diD yOu seE iT ?</Handwriting>
-        <Title>YACHT APES</Title>
+        <Title>YACHT APES
+          </Title>
         <TwoHandwritihg>Apes aRe eveRywhere</TwoHandwritihg>
         <div>
           <HeroImg src={heroImg} alt="HeroImage"></HeroImg>

@@ -5,9 +5,10 @@ import {
   IconDiv,
   Icon,
   IconItem,
+  StyledLink
 } from './Navigation.styled';
 import Logo from '../assets/img/logo.png';
-import { Link, NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import game from '../assets/img/game.svg';
 import yacht from '../assets/img/yacht.svg';
 import twitter from '../assets/img/twitter.svg';
@@ -21,19 +22,19 @@ export const Navigation = () => {
         </Link>
         <List>
           <ListItem>
-            <NavLink to="/about">ABOUT</NavLink>
+            <StyledLink to="/about">ABOUT</StyledLink>
           </ListItem>
           <ListItem>
-            <NavLink to="/m-map">M-map</NavLink>
+            <StyledLink to="/m-map">M-map</StyledLink>
           </ListItem>
           <ListItem>
-            <NavLink to="/faq">Faq</NavLink>
+            <StyledLink to="/faq">Faq</StyledLink>
           </ListItem>
           <ListItem>
-            <NavLink to="/arts">ARTS</NavLink>
+            <StyledLink to="/arts">ARTS</StyledLink>
           </ListItem>
           <ListItem>
-            <NavLink to="/mint">MINT</NavLink>
+            <StyledLink to="/mint">MINT</StyledLink>
           </ListItem>
         </List>
         <IconDiv>
