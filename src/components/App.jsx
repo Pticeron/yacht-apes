@@ -4,8 +4,8 @@ import { Hero } from "./Hero/Hero";
 export const App = () => {
   return (
     <>
-    <Header />
-    <Hero />
+   <Header />
+   <Hero />
     </>
   )
 

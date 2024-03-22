@@ -1,15 +1,15 @@
 import styled from 'styled-components';
 
 export const Nav = styled.div`
-  min-width: 344px;
+  width: 344px;
+  display: flex;
   background-color: #DC3B5A;
   margin: 0 auto;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
 
-
-  @media (min-width: 736px) {
-    width: 768px;
+  @media (min-width: 768px) {
+    width: 736px;
     
   }
   @media (min-width: 1440px) {
