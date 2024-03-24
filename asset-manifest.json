@@ -1,16 +1,23 @@
 {
   "files": {
-    "main.css": "/yacht-apes/static/css/main.7180a157.css",
-    "main.js": "/yacht-apes/static/js/main.38f689d7.js",
+    "main.css": "/yacht-apes/static/css/main.ff3f53a6.css",
+    "main.js": "/yacht-apes/static/js/main.cdd6e427.js",
+    "static/media/hero-img-deck@2.png": "/yacht-apes/static/media/hero-img-deck@2.8b66b82224cef936159c.png",
     "static/media/BiroScriptPlus.ttf": "/yacht-apes/static/media/BiroScriptPlus.8f40d0e26da891712200.ttf",
+    "static/media/BiroScriptPlus-Bold.ttf": "/yacht-apes/static/media/BiroScriptPlus-Bold.d59732f3d22e3d024577.ttf",
+    "static/media/hero-img-tab@2.png": "/yacht-apes/static/media/hero-img-tab@2.a86cd510bf07678b0481.png",
+    "static/media/hero-img-desk.png": "/yacht-apes/static/media/hero-img-desk.0a5edfc4470a08757ab2.png",
+    "static/media/hero-img-mob@2.png": "/yacht-apes/static/media/hero-img-mob@2.60fd7bb512bce3154d7b.png",
+    "static/media/hero-img-tab.png": "/yacht-apes/static/media/hero-img-tab.5fae8ab6e75293bd3977.png",
+    "static/media/hero-img-mob.png": "/yacht-apes/static/media/hero-img-mob.41dca94cd78845ce3583.png",
     "static/media/RightGrotesk-CompactBlack.otf": "/yacht-apes/static/media/RightGrotesk-CompactBlack.965367bf710f347153cc.otf",
     "static/media/MessinaSansMono-Regular.ttf": "/yacht-apes/static/media/MessinaSansMono-Regular.b289391c577f8fd447dd.ttf",
     "index.html": "/yacht-apes/index.html",
-    "main.7180a157.css.map": "/yacht-apes/static/css/main.7180a157.css.map",
-    "main.38f689d7.js.map": "/yacht-apes/static/js/main.38f689d7.js.map"
+    "main.ff3f53a6.css.map": "/yacht-apes/static/css/main.ff3f53a6.css.map",
+    "main.cdd6e427.js.map": "/yacht-apes/static/js/main.cdd6e427.js.map"
   },
   "entrypoints": [
-    "static/css/main.7180a157.css",
-    "static/js/main.38f689d7.js"
+    "static/css/main.ff3f53a6.css",
+    "static/js/main.cdd6e427.js"
   ]
 }
