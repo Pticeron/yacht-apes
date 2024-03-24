@@ -150,7 +150,7 @@ export const BurgerItem = styled.li`
     transition: all var(--transition-dur-and-func);
     &:hover,
     &:focus {
-      color: inherit;
+      color: var(--primery-font-color);
       text-decoration: underline;
     }
   }

@@ -1,6 +1,6 @@
 import Header from "./Header/Header";
 import Hero from "./Hero/Hero";
-
+import About from "./About/About";
 
 function App() {
   return (
@@ -8,6 +8,7 @@ function App() {
   <Header />
   <main> 
     <Hero />
+    <About />
   </main>
     </div>
   )
