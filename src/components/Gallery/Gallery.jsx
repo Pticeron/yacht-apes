@@ -19,7 +19,7 @@ function Gallery() {
       ))}
       <LinkCard>
         <a
-          href="https://internship.softryzen.com/"
+          href="https://academy.binance.com/en/articles/what-is-bored-ape-yacht-club-bayc/"
           target="_blank"
           rel="noopener noreferrer nofollow"
         >

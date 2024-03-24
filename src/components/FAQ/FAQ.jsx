@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { faq } from '../../data/faq';
+import  { faqData } from '../../data/faq';
 import { Container } from 'components/Container/Container.styled';
 import { Section } from 'components/Section/Section.styled';
 import { Title } from 'components/Title/Title.styled';
@@ -16,7 +16,7 @@ import {
 function FAQ() {
   const [openIndex, setOpenIndex] = useState(0);
 
-  const handleToggle = index => {
+  const handleToggle = (index) => {
     setOpenIndex(prevIndex => (prevIndex === index ? -1 : index));
   };
 
@@ -25,14 +25,14 @@ function FAQ() {
       <Container>
         <Title>FAQ</Title>
         <FaqList>
-          {faq.map((item, index) => (
+          {faqData.map((item, index) => (
             <FaqListItem
               key={index}
               $active={openIndex === index ? 'active' : 'not active'}
             >
               <FaqImg
                 src={item.image}
-                alt="Monkey view"
+                alt="Apes view"
                 $active={openIndex === index ? 'active' : 'not active'}
                 loading="lazy"
               />

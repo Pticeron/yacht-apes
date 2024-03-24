@@ -1,11 +1,10 @@
-import Apes1 from "../../src/components/assets/img/faq/img-1.png";
-import Apes2 from "../../src/components/assets/img/faq/img-2.png";
-import Apes3 from "../../src/components/assets/img/faq/img-3.png";
-import Apes4 from "../../src/components/assets/img/faq/img-4.png";
+import Apes1 from '../components/assets/img/faq/img-1.png';
+import Apes2 from '../components/assets/img/faq/img-2.png';
+import Apes3 from '../components/assets/img/faq/img-3.png';
+import Apes4 from '../components/assets/img/faq/img-4.png';
 
-
-
-export const faq = [
+export const faqData = () => 
+  [
     {
       queue: '[ 1 ]',
       question: 'WHAT IS AN NFT COLLECTION?',
