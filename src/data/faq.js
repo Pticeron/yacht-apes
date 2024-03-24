@@ -1,7 +1,7 @@
-import Apes1 from "../assets/img/faq/img-1.png";
-import Apes2 from "../assets/img/faq/img-2.png";
-import Apes3 from "../assets/img/faq/img3.png";
-import Apes4 from "../assets/img/faq/img-4.png";
+import Apes1 from "../../src/components/assets/img/faq/img-1.png";
+import Apes2 from "../../src/components/assets/img/faq/img-2.png";
+import Apes3 from "../../src/components/assets/img/faq/img-3.png";
+import Apes4 from "../../src/components/assets/img/faq/img-4.png";
 
 
 

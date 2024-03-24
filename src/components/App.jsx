@@ -2,6 +2,7 @@ import Header from "./Header/Header";
 import Hero from "./Hero/Hero";
 import About from "./About/About";
 import MindMap from "./MindMap/MindMap";
+import FAQ from "./FAQ/FAQ";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
     <Hero />
     <About />
     <MindMap />
+    <FAQ />
   </main>
     </div>
   )
