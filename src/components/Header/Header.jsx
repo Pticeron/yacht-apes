@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import scrollLock from 'scroll-lock';
-import { BurgerMenu } from 'components/BurgerMenu/BurgerMenu';
-import { MobileMenu } from 'components/MobileMenu/MobileMenu';
+import BurgerMenu  from 'components/BurgerMenu/BurgerMenu';
+import MobileMenu from 'components/MobileMenu/MobileMenu';
 import {
   HeaderContainer,
   HeaderSection,
@@ -10,7 +10,7 @@ import {
 import { Logo } from 'components/assets/img/icons/Icons';
 
 
-export const Header = () => {
+function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
@@ -55,3 +55,5 @@ export const Header = () => {
   </>
     );
 };
+
+export default Header;

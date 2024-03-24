@@ -43,7 +43,7 @@ export const LogoLink = styled(NavLink)`
     }
     &:hover path,
     &:focus path {
-      fill: var(--main-font-color);
+      fill: var(--primery-font-color);
     }
   }
 

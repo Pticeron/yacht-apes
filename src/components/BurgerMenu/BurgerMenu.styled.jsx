@@ -170,21 +170,21 @@ export const NavMenu = styled.nav`
   display: flex;
   color: ${({ $scroll }) =>
     $scroll === 'true'
-      ? 'var(--main-font-color)'
+      ? 'var(--primery-font-color)'
       : 'var(--secondary-font-color)'};
   a {
     svg {
       path {
         fill: ${({ $scroll }) =>
           $scroll === 'true'
-            ? 'var(--main-font-color)'
+            ? 'var(--primery-font-color)'
             : 'var(--secondary-font-color)'};
       }
     }
     &:hover path,
     &:focus path {
       fill: ${({ $scroll }) =>
-        $scroll === 'true' ? 'var(--accent-color)' : 'var(--main-font-color)'};
+        $scroll === 'true' ? 'var(--accent-color)' : 'var(--ptimery-font-color)'};
     }
   }
 

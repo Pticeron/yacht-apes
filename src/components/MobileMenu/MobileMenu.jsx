@@ -14,7 +14,7 @@ import {
 } from './MobileMenu.styled';
 import { Discord, Opensea, Twitter } from 'components/assets/img/icons/Icons';
 
-export const MobileMenu = ({ isMobileMenuOpen, setIsMobileMenuOpen }) => {
+function MobileMenu({ isMobileMenuOpen, setIsMobileMenuOpen }) {
   const [activeSection, setActiveSection] = useState('');
 
   const handleModalClose = () => {
@@ -150,3 +150,5 @@ export const MobileMenu = ({ isMobileMenuOpen, setIsMobileMenuOpen }) => {
     </Backdrop>
   );
 };
+
+export default MobileMenu;

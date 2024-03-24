@@ -10,7 +10,7 @@ import {
 import { MobileMenuBtn } from 'components/MobileMenu/MobileMenu.styled';
 import { Discord, Opensea, Twitter } from 'components/assets/img/icons/Icons';
 
-export const BurgerMenu = ({ isScrolled, handleModalOpen }) => {
+function BurgerMenu ({ isScrolled, handleModalOpen }) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const handleMenuToggle = () => {
@@ -112,3 +112,5 @@ export const BurgerMenu = ({ isScrolled, handleModalOpen }) => {
     </NavMenu>
   );
 };
+
+export default BurgerMenu;
