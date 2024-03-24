@@ -1,20 +1,16 @@
 {
   "files": {
-    "main.css": "/yacht-apes/static/css/main.24537712.css",
-    "main.js": "/yacht-apes/static/js/main.cc88c7ef.js",
-    "static/media/img1.png": "/yacht-apes/static/media/img1.a2305c712f160da5da9c.png",
+    "main.css": "/yacht-apes/static/css/main.7180a157.css",
+    "main.js": "/yacht-apes/static/js/main.38f689d7.js",
     "static/media/BiroScriptPlus.ttf": "/yacht-apes/static/media/BiroScriptPlus.8f40d0e26da891712200.ttf",
     "static/media/RightGrotesk-CompactBlack.otf": "/yacht-apes/static/media/RightGrotesk-CompactBlack.965367bf710f347153cc.otf",
     "static/media/MessinaSansMono-Regular.ttf": "/yacht-apes/static/media/MessinaSansMono-Regular.b289391c577f8fd447dd.ttf",
-    "static/media/yacht.svg": "/yacht-apes/static/media/yacht.646c1434aa12e992883c396b2f607554.svg",
-    "static/media/game.svg": "/yacht-apes/static/media/game.9ae1ed990c58c15550f47611b260015e.svg",
     "index.html": "/yacht-apes/index.html",
-    "static/media/twitter.svg": "/yacht-apes/static/media/twitter.94b3f8d31d54af653f3a0383f46e96a8.svg",
-    "main.24537712.css.map": "/yacht-apes/static/css/main.24537712.css.map",
-    "main.cc88c7ef.js.map": "/yacht-apes/static/js/main.cc88c7ef.js.map"
+    "main.7180a157.css.map": "/yacht-apes/static/css/main.7180a157.css.map",
+    "main.38f689d7.js.map": "/yacht-apes/static/js/main.38f689d7.js.map"
   },
   "entrypoints": [
-    "static/css/main.24537712.css",
-    "static/js/main.cc88c7ef.js"
+    "static/css/main.7180a157.css",
+    "static/js/main.38f689d7.js"
   ]
 }
