@@ -8,9 +8,7 @@ import {
   MenuList,
 } from './BurgerMenu.styled';
 import { MobileMenuBtn } from 'components/MobileMenu/MobileMenu.styled';
-import discord from '../assets/img/discord.svg';
-import opensea from '../assets/img/discord.svg';
-import twitter from '../assets/img/discord.svg';
+import { Discord, Opensea, Twitter } from 'components/assets/img/icons/Icons';
 
 export const BurgerMenu = ({ isScrolled, handleModalOpen }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -87,9 +85,7 @@ export const BurgerMenu = ({ isScrolled, handleModalOpen }) => {
             rel="noopener noreferrer nofollow"
             aria-label="a link to the company's Discord page"
           >
-            <img src={discord} alt="Discord">
-              "Discord"
-            </img>
+              <Discord />
           </a>
         </MenuItem>
         <MenuItem>
@@ -99,9 +95,7 @@ export const BurgerMenu = ({ isScrolled, handleModalOpen }) => {
             rel="noopener noreferrer nofollow"
             aria-label="a link to the company's Opensea page"
           >
-            <img src={opensea} alt="Opensea">
-              "Opensea"
-            </img>
+             <Opensea />
           </a>
         </MenuItem>
         <MenuItem>
@@ -111,9 +105,7 @@ export const BurgerMenu = ({ isScrolled, handleModalOpen }) => {
             rel="noopener noreferrer nofollow"
             aria-label="a link to the company's Twitter page"
           >
-            <img src={twitter} alt="Twitter">
-              "Twitter"
-            </img>
+            <Twitter />
           </a>
         </MenuItem>
       </MenuList>

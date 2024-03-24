@@ -12,9 +12,7 @@ import {
   MenuItem,
   MenuList,
 } from './MobileMenu.styled';
-import discord from '../assets/img/discord.svg';
-import opensea from '../assets/img/opensea.svg';
-import twitter from '../assets/img/twitter.svg';
+import { Discord, Opensea, Twitter } from 'components/assets/img/icons/Icons';
 
 export const MobileMenu = ({ isMobileMenuOpen, setIsMobileMenuOpen }) => {
   const [activeSection, setActiveSection] = useState('');
@@ -74,9 +72,7 @@ export const MobileMenu = ({ isMobileMenuOpen, setIsMobileMenuOpen }) => {
                   rel="noopener noreferrer nofollow"
                   aria-label="a link to the company's Discord page"
                 >
-                  <img src={discord} alt="Discord">
-                    "Discord"
-                  </img>
+                  < Discord />
                 </a>
               </MenuItem>
               <MenuItem>
@@ -86,9 +82,7 @@ export const MobileMenu = ({ isMobileMenuOpen, setIsMobileMenuOpen }) => {
                   rel="noopener noreferrer nofollow"
                   aria-label="a link to the company's Opensea page"
                 >
-                  <img src={opensea} alt="Opensea">
-                    "Opensea"
-                  </img>
+                  < Opensea />
                 </a>
               </MenuItem>
               <MenuItem>
@@ -98,9 +92,7 @@ export const MobileMenu = ({ isMobileMenuOpen, setIsMobileMenuOpen }) => {
                   rel="noopener noreferrer nofollow"
                   aria-label="a link to the company's Twitter page"
                 >
-                  <img src={twitter} alt="Twitter">
-                    "Twitter"
-                  </img>
+                  <Twitter />
                 </a>
               </MenuItem>
             </MenuList>
