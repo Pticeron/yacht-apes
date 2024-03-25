@@ -1,4 +1,4 @@
-import cardsData from '../../data/m-map.json';
+import cardsData from '../data/m-map.json';
 import { UpLeftArrow } from '../assets/img/icons/Icons';
 import {
   Card,

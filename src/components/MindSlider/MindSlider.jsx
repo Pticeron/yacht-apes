@@ -10,7 +10,7 @@ import {
   SwiperBtn,
 } from './MindSlider.styled';
 import { CardText, CardTitle } from '../Gallery/Galery.styled';
-import cardsData from '../../data/m-map.json';
+import cardsData from '../data/m-map.json';
 import { UpLeftArrow } from '../assets/img/icons/Icons';
 
 function MindSlider() {

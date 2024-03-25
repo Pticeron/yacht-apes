@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import  { faqData } from '../../data/faq';
+import { faqData }  from '../data/faq';
 import { Container } from 'components/Container/Container.styled';
 import { Section } from 'components/Section/Section.styled';
 import { Title } from 'components/Title/Title.styled';
@@ -10,7 +10,7 @@ import {
   FaqList,
   FaqListItem,
   FaqQuestion,
-  FaqQuestionWrapper,
+  FaqQuestionWrapper
 } from './FAQ.styled';
 
 function FAQ() {

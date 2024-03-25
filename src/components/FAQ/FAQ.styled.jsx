@@ -126,7 +126,7 @@ export const FaqQuestion = styled.h3`
 `;
 
 export const FaqAnsver = styled.p`
-  font-family: 'MessinaSansMono-Regular';
+  font-family: 'MessinaSansMono';
   font-size: 12px;
   font-weight: 400;
   line-height: 1.17;

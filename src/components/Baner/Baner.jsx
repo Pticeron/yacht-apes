@@ -1,4 +1,4 @@
-import banners from '../../data/banners.json';
+import banners from '../data/banners.json';
 import { AddSharp } from '../assets/img/icons/Icons';
 import {
     BannerContainer,
