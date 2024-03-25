@@ -3,8 +3,7 @@ import Apes2 from '../assets/img/faq/img-2.png';
 import Apes3 from '../assets/img/faq/img-3.png';
 import Apes4 from '../assets/img/faq/img-4.png';
 
-export const faqData = 
-  [
+export const faqData = [
     {
       queue: '[ 1 ]',
       question: 'WHAT IS AN NFT COLLECTION?',
