@@ -1,5 +1,7 @@
 import scrollLock from 'scroll-lock';
 import React, { useState, useEffect } from 'react';
+import Footer from 'components/Footer/Footer';
+import { LogoLink } from 'components/Header/Header.styled';
 import {
   Backdrop,
   BottomPart,
@@ -12,7 +14,7 @@ import {
   MenuItem,
   MenuList,
 } from './MobileMenu.styled';
-import { Discord, Opensea, Twitter } from 'components/assets/img/icons/Icons';
+import { Discord, Opensea, Twitter, Logo } from 'components/assets/img/icons/Icons';
 
 function MobileMenu({ isMobileMenuOpen, setIsMobileMenuOpen }) {
   const [activeSection, setActiveSection] = useState('');
@@ -53,9 +55,9 @@ function MobileMenu({ isMobileMenuOpen, setIsMobileMenuOpen }) {
       >
         <ModalContent>
           <ModalHeader>
-            {/* <LogoLink to="/" aria-label="Logo link to main page">
+            <LogoLink to="/" aria-label="Logo link to main page">
             <Logo />
-          </LogoLink> */}
+          </LogoLink>
             <MenuList>
               <MenuItem>
                 <MobileMenuBtn
@@ -144,7 +146,7 @@ function MobileMenu({ isMobileMenuOpen, setIsMobileMenuOpen }) {
               </a>
             </ModalItem>
           </ModalList>
-          <BottomPart>{/* <Footer /> */}</BottomPart>
+          <BottomPart><Footer /></BottomPart>
         </ModalContent>
       </Modal>
     </Backdrop>
