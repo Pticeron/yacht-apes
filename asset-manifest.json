@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/yacht-apes/static/css/main.c2bf3d90.css",
-    "main.js": "/yacht-apes/static/js/main.5f161d45.js",
+    "main.css": "/yacht-apes/static/css/main.d219a8d0.css",
+    "main.js": "/yacht-apes/static/js/main.bf6c3e98.js",
     "static/media/about-img-deck@2.png": "/yacht-apes/static/media/about-img-deck@2.14a8308e89c6fd613bf9.png",
     "static/media/hero-img-deck@2.png": "/yacht-apes/static/media/hero-img-deck@2.8b66b82224cef936159c.png",
     "static/media/BiroScriptPlus.ttf": "/yacht-apes/static/media/BiroScriptPlus.8f40d0e26da891712200.ttf",
@@ -14,16 +14,32 @@
     "static/media/about-img-mob@2.png": "/yacht-apes/static/media/about-img-mob@2.d3e0b1627d55cd576574.png",
     "static/media/about-img-tab.png": "/yacht-apes/static/media/about-img-tab.3d822abf6a285d73be26.png",
     "static/media/hero-img-tab.png": "/yacht-apes/static/media/hero-img-tab.5fae8ab6e75293bd3977.png",
+    "static/media/img-13.png": "/yacht-apes/static/media/img-13.7f5e050ca585df3c4bb2.png",
+    "static/media/img-7.png": "/yacht-apes/static/media/img-7.fd48d4dff173bf39659f.png",
+    "static/media/img-6.png": "/yacht-apes/static/media/img-6.d9acc91cb99d3cad1d0f.png",
+    "static/media/img-11.png": "/yacht-apes/static/media/img-11.25b7622fbc74c89ae8f7.png",
+    "static/media/img-12.png": "/yacht-apes/static/media/img-12.846123265663d30168b4.png",
+    "static/media/img-14.png": "/yacht-apes/static/media/img-14.24f874818a06843dcb6d.png",
+    "static/media/img-9.png": "/yacht-apes/static/media/img-9.7d275d5a4324d1c6f918.png",
+    "static/media/img-2.png": "/yacht-apes/static/media/img-2.e4862a3e54b460f5e400.png",
+    "static/media/img-4.png": "/yacht-apes/static/media/img-4.957994aefffbe98b3194.png",
     "static/media/hero-img-mob.png": "/yacht-apes/static/media/hero-img-mob.41dca94cd78845ce3583.png",
+    "static/media/img-10.png": "/yacht-apes/static/media/img-10.9ea482b9bb3a9bc962d6.png",
+    "static/media/img-1.png": "/yacht-apes/static/media/img-1.e8083a18fdd68128d9ce.png",
+    "static/media/img-8.png": "/yacht-apes/static/media/img-8.e40e6cc62a390af7d18c.png",
     "static/media/about-img-mob.png": "/yacht-apes/static/media/about-img-mob.1d3c463583c7d795f073.png",
+    "static/media/img-5.png": "/yacht-apes/static/media/img-5.a445f77218f03870569f.png",
+    "static/media/img-3.png": "/yacht-apes/static/media/img-3.179375cebc3ac36f66e2.png",
     "static/media/RightGrotesk-CompactBlack.otf": "/yacht-apes/static/media/RightGrotesk-CompactBlack.965367bf710f347153cc.otf",
     "static/media/MessinaSansMono-Regular.ttf": "/yacht-apes/static/media/MessinaSansMono-Regular.b289391c577f8fd447dd.ttf",
+    "static/media/form-meta.svg": "/yacht-apes/static/media/form-meta.1e1318ed1d79874e18f31e148cd282c9.svg",
+    "static/media/form-discord.svg": "/yacht-apes/static/media/form-discord.7d6b920863b971801cacad7bf38f60b7.svg",
     "index.html": "/yacht-apes/index.html",
-    "main.c2bf3d90.css.map": "/yacht-apes/static/css/main.c2bf3d90.css.map",
-    "main.5f161d45.js.map": "/yacht-apes/static/js/main.5f161d45.js.map"
+    "main.d219a8d0.css.map": "/yacht-apes/static/css/main.d219a8d0.css.map",
+    "main.bf6c3e98.js.map": "/yacht-apes/static/js/main.bf6c3e98.js.map"
   },
   "entrypoints": [
-    "static/css/main.c2bf3d90.css",
-    "static/js/main.5f161d45.js"
+    "static/css/main.d219a8d0.css",
+    "static/js/main.bf6c3e98.js"
   ]
 }
