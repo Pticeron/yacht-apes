@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/yacht-apes/static/css/main.d219a8d0.css",
-    "main.js": "/yacht-apes/static/js/main.4bc7f16b.js",
+    "main.js": "/yacht-apes/static/js/main.355a9508.js",
     "static/media/about-img-deck@2.png": "/yacht-apes/static/media/about-img-deck@2.14a8308e89c6fd613bf9.png",
     "static/media/hero-img-deck@2.png": "/yacht-apes/static/media/hero-img-deck@2.8b66b82224cef936159c.png",
     "static/media/BiroScriptPlus.ttf": "/yacht-apes/static/media/BiroScriptPlus.8f40d0e26da891712200.ttf",
@@ -31,23 +31,15 @@
     "static/media/img-5.png": "/yacht-apes/static/media/img-5.a445f77218f03870569f.png",
     "static/media/img-3.png": "/yacht-apes/static/media/img-3.179375cebc3ac36f66e2.png",
     "static/media/RightGrotesk-CompactBlack.otf": "/yacht-apes/static/media/RightGrotesk-CompactBlack.965367bf710f347153cc.otf",
-    "static/media/img-2@2.jpg": "/yacht-apes/static/media/img-2@2.ed7a4a992c6280d6b4a1.jpg",
     "static/media/MessinaSansMono-Regular.ttf": "/yacht-apes/static/media/MessinaSansMono-Regular.b289391c577f8fd447dd.ttf",
-    "static/media/img-4@2.jpg": "/yacht-apes/static/media/img-4@2.b02d86a3f7f0a9f2ac6a.jpg",
-    "static/media/img-3@2.jpg": "/yacht-apes/static/media/img-3@2.ae59527c5f15733480ed.jpg",
-    "static/media/img-1@2.jpg": "/yacht-apes/static/media/img-1@2.3f61b03a9d8542753204.jpg",
-    "static/media/img-2.jpg": "/yacht-apes/static/media/img-2.ed153162d9faf4afb439.jpg",
-    "static/media/img-4.jpg": "/yacht-apes/static/media/img-4.7a267a10eaa1453bcb84.jpg",
-    "static/media/img-3.jpg": "/yacht-apes/static/media/img-3.226664a2b264814559af.jpg",
-    "static/media/img-1.jpg": "/yacht-apes/static/media/img-1.1377fb934efce6fb9ca1.jpg",
     "static/media/form-meta.svg": "/yacht-apes/static/media/form-meta.1e1318ed1d79874e18f31e148cd282c9.svg",
     "static/media/form-discord.svg": "/yacht-apes/static/media/form-discord.7d6b920863b971801cacad7bf38f60b7.svg",
     "index.html": "/yacht-apes/index.html",
     "main.d219a8d0.css.map": "/yacht-apes/static/css/main.d219a8d0.css.map",
-    "main.4bc7f16b.js.map": "/yacht-apes/static/js/main.4bc7f16b.js.map"
+    "main.355a9508.js.map": "/yacht-apes/static/js/main.355a9508.js.map"
   },
   "entrypoints": [
     "static/css/main.d219a8d0.css",
-    "static/js/main.4bc7f16b.js"
+    "static/js/main.355a9508.js"
   ]
 }
