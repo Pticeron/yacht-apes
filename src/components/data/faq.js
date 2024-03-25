@@ -1,35 +1,39 @@
-import Apes1 from '../assets/img/faq/img-1.png';
-import Apes2 from '../assets/img/faq/img-2.png';
-import Apes3 from '../assets/img/faq/img-3.png';
-import Apes4 from '../assets/img/faq/img-4.png';
+import Apes1 from '../assets/img/faq/img-1.jpg';
+import Apes1_2x from '../assets/img/faq/img-1@2.jpg';
+import Apes2 from '../assets/img/faq/img-2.jpg';
+import Apes2_2x from '../assets/img/faq/img-2@2.jpg';
+import Apes3 from '../assets/img/faq/img-3.jpg';
+import Apes3_2x from '../assets/img/faq/img-3@2.jpg';
+import Apes4 from '../assets/img/faq/img-4.jpg';
+import Apes4_2x from '../assets/img/faq/img-4@2.jpg';
 
 export const faqData = [
     {
-      queue: '[ 1 ]',
+      id: 1,
       question: 'WHAT IS AN NFT COLLECTION?',
-      answer:
+      description:
         'An NFT collection is a group of unique digital assets, each represented by a non-fungible token, typically created around a specific theme or style.',
-      image: Apes1,
+      image: [Apes1, Apes1_2x],
     },
     {
-      queue: '[ 2 ]',
+      id: 2,
       question: 'HOW DO I PURCHASE NFTS FROM A COLLECTION?',
-      answer:
+      description:
         'To purchase NFTs from a collection, you typically need to use cryptocurrency on a blockchain-based marketplace.',
-      image: Apes2,
+      image: [Apes2, Apes2_2x],
     },
     {
-      queue: '[ 3 ]',
+      id: 3,
       question: 'CAN I SELL OR TRADE NFTS FROM A COLLECTION?',
-      answer:
+      description:
         'Yes, you can sell or trade NFTs from a collection like you would other digital assets.',
-      image: Apes3,
+      image: [Apes3, Apes3_2x],
     },
     {
-      queue: '[ 4 ]',
+      id: 4,
       question: 'WHAT RIGHTS DO I HAVE AS AN OWNER OF AN NFT?',
-      answer:
+      description:
         "As an NFT owner, you can own, transfer, potentially access exclusive content, resell, but don't automatically get copyright or intellectual property rights.",
-      image: Apes4,
+      image: [Apes4, Apes4_2x],
     },
   ];
