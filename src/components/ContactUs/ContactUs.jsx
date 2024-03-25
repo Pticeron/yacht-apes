@@ -3,6 +3,7 @@ import { Section } from 'components/Section/Section.styled';
 import { Title } from 'components/Title/Title.styled';
 import { AddSharp }from '../assets/img/icons/Icons';
 import { MindText, MindWrapper } from './ContactUs.styled';
+import ContactForm from 'components/Contact.Form/Contact.Form';
 
 function Mint() {
   return (
@@ -15,7 +16,7 @@ function Mint() {
             Join the YACHT APE community to be one of the first to receive our
             limited edition NFT
           </MindText>
-          {/* <ContactForm /> */}
+          <ContactForm />
         </MindWrapper>
       </Container>
     </Section>

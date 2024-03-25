@@ -21,7 +21,7 @@ export const MindWrapper = styled.div`
 `;
 
 export const MindText = styled.p`
-  font-family: 'MessinaSansMono-Regular';
+  font-family: 'Messina Sans Mono';
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
