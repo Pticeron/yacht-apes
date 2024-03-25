@@ -5,6 +5,7 @@ import MindMap from "./MindMap/MindMap";
 import FAQ from "./FAQ/FAQ";
 import Arts from "./Arts/Arts";
 import Mint from "./ContactUs/ContactUs";
+import Footer from "./Footer/Footer";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
     <Arts />
     <Mint />
   </main>
+  <Footer />
     </div>
   )
 };
