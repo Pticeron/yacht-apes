@@ -1,4 +1,4 @@
-import { Container } from "components/Container/Container.styled"; 
+import { Container } from 'components/Container/Container.styled';
 import {
   DeckWrapper,
   HeroBtn,

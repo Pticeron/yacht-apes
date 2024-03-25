@@ -184,7 +184,9 @@ export const NavMenu = styled.nav`
     &:hover path,
     &:focus path {
       fill: ${({ $scroll }) =>
-        $scroll === 'true' ? 'var(--accent-color)' : 'var(--ptimery-font-color)'};
+        $scroll === 'true'
+          ? 'var(--accent-color)'
+          : 'var(--ptimery-font-color)'};
     }
   }
 

@@ -1,7 +1,7 @@
 import { Container } from 'components/Container/Container.styled';
 import { Section } from 'components/Section/Section.styled';
 import { Title } from 'components/Title/Title.styled';
-import { AddSharp }from '../assets/img/icons/Icons';
+import { AddSharp } from '../assets/img/icons/Icons';
 import { MindText, MindWrapper } from './ContactUs.styled';
 import ContactForm from 'components/Contact.Form/Contact.Form';
 

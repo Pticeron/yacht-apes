@@ -10,7 +10,7 @@ import {
 import { MobileMenuBtn } from 'components/MobileMenu/MobileMenu.styled';
 import { Discord, Opensea, Twitter } from 'components/assets/img/icons/Icons';
 
-function BurgerMenu ({ isScrolled, handleModalOpen }) {
+function BurgerMenu({ isScrolled, handleModalOpen }) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const handleMenuToggle = () => {
@@ -85,7 +85,7 @@ function BurgerMenu ({ isScrolled, handleModalOpen }) {
             rel="noopener noreferrer nofollow"
             aria-label="a link to the company's Discord page"
           >
-              <Discord />
+            <Discord />
           </a>
         </MenuItem>
         <MenuItem>
@@ -95,7 +95,7 @@ function BurgerMenu ({ isScrolled, handleModalOpen }) {
             rel="noopener noreferrer nofollow"
             aria-label="a link to the company's Opensea page"
           >
-             <Opensea />
+            <Opensea />
           </a>
         </MenuItem>
         <MenuItem>
@@ -111,6 +111,6 @@ function BurgerMenu ({ isScrolled, handleModalOpen }) {
       </MenuList>
     </NavMenu>
   );
-};
+}
 
 export default BurgerMenu;

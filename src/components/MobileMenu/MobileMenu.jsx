@@ -72,7 +72,7 @@ function MobileMenu({ isMobileMenuOpen, setIsMobileMenuOpen }) {
                   rel="noopener noreferrer nofollow"
                   aria-label="a link to the company's Discord page"
                 >
-                  < Discord />
+                  <Discord />
                 </a>
               </MenuItem>
               <MenuItem>
@@ -82,7 +82,7 @@ function MobileMenu({ isMobileMenuOpen, setIsMobileMenuOpen }) {
                   rel="noopener noreferrer nofollow"
                   aria-label="a link to the company's Opensea page"
                 >
-                  < Opensea />
+                  <Opensea />
                 </a>
               </MenuItem>
               <MenuItem>
@@ -149,6 +149,6 @@ function MobileMenu({ isMobileMenuOpen, setIsMobileMenuOpen }) {
       </Modal>
     </Backdrop>
   );
-};
+}
 
 export default MobileMenu;
