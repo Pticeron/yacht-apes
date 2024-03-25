@@ -9,7 +9,7 @@ import {
     SwiperBtn,
     SwiperImg,
 } from './GallerySlyder.styled';
-import { galleryData } from '../../data/galery';
+import { galleryData } from '../data/galery';
 
 function GallerySlider() {
     const isMobile = useMediaQuery({ maxWidth: 767 });

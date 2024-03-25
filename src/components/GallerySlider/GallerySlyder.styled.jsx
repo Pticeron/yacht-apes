@@ -36,7 +36,7 @@ export const SwiperBtn = styled.button`
   background-color: transparent;
   border: none;
   color: var(--main-font-color);
-  font-family: 'BiroScript-PlusBold';
+  font-family: 'Biro Script Plus';
   font-size: 24px;
   line-height: 1.25;
 `;

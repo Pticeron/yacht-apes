@@ -1,30 +1,30 @@
-import { useState } from 'react';
-import { faqData }  from '../data/faq';
+// import { useState } from 'react';
+// import { faqData }  from '../data/faq';
 import { Container } from 'components/Container/Container.styled';
 import { Section } from 'components/Section/Section.styled';
 import { Title } from 'components/Title/Title.styled';
-import {
-  FaqAnsver,
-  FaqButton,
-  FaqImg,
-  FaqList,
-  FaqListItem,
-  FaqQuestion,
-  FaqQuestionWrapper
-} from './FAQ.styled';
+// import {
+//   FaqAnsver,
+//   FaqButton,
+//   FaqImg,
+//   FaqList,
+//   FaqListItem,
+//   FaqQuestion,
+//   FaqQuestionWrapper
+// } from './FAQ.styled';
 
 function FAQ() {
-  const [openIndex, setOpenIndex] = useState(0);
+  // const [openIndex, setOpenIndex] = useState(0);
 
-  const handleToggle = (index) => {
-    setOpenIndex(prevIndex => (prevIndex === index ? -1 : index));
-  };
+  // const handleToggle = (index) => {
+  //   setOpenIndex(prevIndex => (prevIndex === index ? -1 : index));
+  // };
 
   return (
     <Section id="faq">
       <Container>
         <Title>FAQ</Title>
-        <FaqList>
+        {/* <FaqList>
           {faqData.map((item, index) => (
             <FaqListItem
               key={index}
@@ -52,7 +52,7 @@ function FAQ() {
               </FaqQuestionWrapper>
             </FaqListItem>
           ))}
-        </FaqList>
+        </FaqList> */}
       </Container>
     </Section>
   );
