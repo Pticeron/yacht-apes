@@ -61,6 +61,11 @@ export const MenuItem = styled.li`
         transition: fill var(--transition-dur-and-func);
       }
     }
+    &:hover,
+    &:focus {
+      color: var(--secondary-font-color);
+      text-decoration: underline;
+    }
   }
   @media screen and (min-width: 1280px) {
     width: 80px;
@@ -150,7 +155,7 @@ export const BurgerItem = styled.li`
     transition: all var(--transition-dur-and-func);
     &:hover,
     &:focus {
-      color: var(--primery-font-color);
+      color: var(--secondary-font-color);
       text-decoration: underline;
     }
   }

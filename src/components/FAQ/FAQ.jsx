@@ -1,8 +1,7 @@
-// import { useState } from 'react';
-import { Container } from 'components/Container/Container.styled';
+// import React, { useState } from 'react';
 import { Section } from 'components/Section/Section.styled';
+import { Container } from 'components/Container/Container.styled';
 import { Title } from 'components/Title/Title.styled';
-// import { faqData } from '../data/faq';
 // import {
 //   FaqList,
 //   FaqListItem,
@@ -12,6 +11,7 @@ import { Title } from 'components/Title/Title.styled';
 //   FaqQuestion,
 //   FaqQuestionWrapper,
 // } from './FAQ.styled';
+// import { faqData } from '../data/faq';
 
 function FAQ() {
   // const [openIndex, setOpenIndex] = useState(0);
@@ -32,7 +32,7 @@ function FAQ() {
             >
               <FaqImg
                 src={item.image}
-                alt="Monkey view"
+                alt="Apes view"
                 $active={openIndex === index ? 'active' : 'not active'}
                 loading="lazy"
               />
