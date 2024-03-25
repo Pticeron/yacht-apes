@@ -14,9 +14,7 @@ export const FaqList = styled.ul`
   }
 `;
 
-export const FaqListItem =
-  styled.li >
-  `
+export const FaqListItem = styled.li`
   display: flex;
   gap: 8px;
   align-items: flex-start;
@@ -45,9 +43,7 @@ export const FaqListItem =
   }
 `;
 
-export const FaqImg =
-  styled.img >
-  `
+export const FaqImg = styled.img`
   display: none;
   @media screen and (min-width: 768px) {
     position: absolute;
