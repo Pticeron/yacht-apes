@@ -21,7 +21,7 @@ export const SwiperBtn = styled.button`
   background-color: transparent;
   border: none;
   color: var(--main-font-color);
-  font-family: 'BiroScript-PlusBold';
+  font-family: 'Biro Script Plus-Bold;
   font-size: 24px;
   line-height: 1;
 `;
@@ -33,7 +33,7 @@ export const Card = styled.div`
   flex-direction: column;
   justify-content: space-between;
   background-color: var(--secondary-background-color);
-  color: var(--main-font-color);
+  color: var(--primery-font-color);
   height: 242px;
   a {
     background-color: var(--accent-color);
@@ -54,7 +54,7 @@ export const LinkCard = styled.div`
   flex-direction: column;
   justify-content: flex-end;
   background-color: var(--accent-color);
-  color: var(--main-font-color);
+  color: var(--primery-font-color);
   height: 242px;
   position: relative;
   &:hover svg,

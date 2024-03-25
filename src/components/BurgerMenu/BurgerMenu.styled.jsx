@@ -88,7 +88,7 @@ export const MenuBtn = styled.button`
     background: transparent;
     border: none;
     color: inherit;
-    font-family: 'MessinaSansMono-Regular';
+    font-family: 'Messina Sans Mono';
     font-size: 12px;
     font-weight: 600;
     line-height: 1.17;
@@ -142,7 +142,7 @@ export const BurgerItem = styled.li`
     background: transparent;
     border: none;
     color: inferit;
-    font-family: 'MessinaSansMono-Regular';
+    font-family: 'Messina Sans Mono';
     font-size: 12px;
     font-weight: 600;
     line-height: 1.17;

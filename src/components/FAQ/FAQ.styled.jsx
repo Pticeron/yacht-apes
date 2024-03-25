@@ -29,7 +29,7 @@ export const FaqListItem = styled.li>`
   }
   &:hover button,
   &:focus button {
-    color: var(--main-font-color);
+    color: var(--primery-font-color);
   }
   h3 {
     color: ${({ $active }) =>
@@ -42,6 +42,7 @@ export const FaqListItem = styled.li>`
     padding: 24px;
   }
 `;
+
 
 export const FaqImg = styled.img>`
   display: none;
@@ -66,8 +67,8 @@ export const FaqButton = styled.button`
   background: transparent;
   margin-top: 4px;
   color: ${({ $active }) =>
-    $active === 'active' ? 'var(--main-font-color)' : 'var(--accent-color)'};
-  font-family: 'BiroScript-PlusBold';
+    $active === 'active' ? 'var(--primery-font-color)' : 'var(--accent-color)'};
+  font-family: 'Biro Script Plus-Bold';
   font-size: 12px;
   font-weight: 400;
   line-height: 20px;
@@ -108,7 +109,7 @@ export const FaqQuestionWrapper = styled.div`
 export const FaqQuestion = styled.h3`
   cursor: pointer;
   color: var(--main-font-color);
-  font-family: 'RightGrotesk-CompactBlack';
+  font-family: 'Right Grotesk';
   font-size: 20px;
   font-weight: 900;
   line-height: 1;
@@ -125,8 +126,8 @@ export const FaqQuestion = styled.h3`
   }
 `;
 
-export const FaqAnsver = styled.p`
-  font-family: 'MessinaSansMono';
+export const FaqDeckription = styled.p`
+  font-family: 'Messina Sans Mono';
   font-size: 12px;
   font-weight: 400;
   line-height: 1.17;

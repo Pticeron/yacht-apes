@@ -26,7 +26,7 @@ export const HeroSection = styled.section`
 `;
 
 export const HeroTitle = styled.h1`
-  font-family: 'RightGrotesk-CompactBlack';
+  font-family: 'Right Grotesk';
   font-size: 44px;
   font-weight: 900;
   line-height: 44px;
@@ -51,7 +51,7 @@ export const HeroTitle = styled.h1`
 `;
 
 export const HeroQuestion = styled.p`
-  font-family: 'BiroScript-PlusBold';
+  font-family: 'Biro Script Plus-Bold';
   font-size: 16px;
   font-weight: 400;
   line-height: 27px;
@@ -101,7 +101,7 @@ export const HeroBtn = styled.a`
   backdrop-filter: blur(12px);
   background: rgba(30, 30, 30, 0.1);
   color: var(--secondary-font-color);
-  font-family: 'RightGrotesk-CompactBlack';
+  font-family: 'Right Grotesk';
   font-size: 16px;
   font-weight: 900;
   line-height: 19px;
@@ -126,7 +126,7 @@ export const HeroBtn = styled.a`
 `;
 
 export const HeroDescription = styled.p`
-  font-family: 'MessinaSansMono-Regular';
+  font-family: 'Messina Sans Mono';
   font-size: 12px;
   font-weight: 400;
   line-height: 1.17;

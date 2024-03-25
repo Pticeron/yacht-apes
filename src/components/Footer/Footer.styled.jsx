@@ -7,7 +7,7 @@ export const FooterSection = styled.footer`
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: var(--main-font-color);
+  color: var(--primery-font-color);
   padding: 30px 64px 0;
   @media screen and (min-width: 768px) {
     padding: 30px 72px 0;
@@ -21,7 +21,7 @@ export const FooterSection = styled.footer`
 `;
 
 export const Copyright = styled.p`
-  font-family: 'MessinaSansMono-Regular';
+  font-family: 'Messina Sans Mono';
   font-size: 12px;
   line-height: 1.17;
   text-align: center;

@@ -28,7 +28,7 @@ export const Backdrop = styled.div`
     left: 0;
     width: 100%;
     height: 100%;
-    background: var(--main-background-color);
+    background: var(--primery-background-color);
     transition: all var(--transition-dur-and-func);
     opacity: ${({ $isOpen }) => ($isOpen === 'open' ? '1' : '0')};
     animation: ${({ $isOpen }) => ($isOpen === 'open' ? fadeIn : fadeOut)} 0.8s
@@ -49,7 +49,7 @@ export const MobileMenuBtn = styled.button`
     background: transparent;
     border: none;
     color: inherit;
-    font-family: 'MessinaSansMono-Regular';
+    font-family: 'Messina Sans Mono';
     font-size: 12px;
     font-weight: 600;
     line-height: 1.17;
@@ -94,7 +94,7 @@ export const ModalHeader = styled.div`
   a {
     svg {
       path {
-        fill: var(--main-font-color);
+        fill: var(--primery-font-color);
       }
     }
   }
@@ -107,8 +107,8 @@ export const ModalList = styled.ul`
 `;
 
 export const ModalItem = styled.li`
-  color: var(--main-font-color);
-  font-family: 'MessinaSansMono-Regular';
+  color: var(--primery-font-color);
+  font-family: 'Messina Sans Mono';
   font-size: 24px;
   font-weight: 600;
   line-height: 1.2;
@@ -141,7 +141,7 @@ export const MenuItem = styled.li`
       width: 16px;
       height: 16px;
       path {
-        fill: var(--main-font-color);
+        fill: var(--primery-font-color);
       }
     }
   }

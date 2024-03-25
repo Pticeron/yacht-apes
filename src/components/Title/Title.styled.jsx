@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Title = styled.h2`
-  font-family: 'RightGrotesk-CompactBlack';
+  font-family: 'Right Grotesk';
   font-size: 44px;
   font-weight: 900;
   line-height: 0.9;

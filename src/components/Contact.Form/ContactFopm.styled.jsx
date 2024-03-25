@@ -117,7 +117,7 @@ export const Input = styled.input`
   }
   &:focus,
   &:active {
-    border: 1px solid var(--main-font-color);
+    border: 1px solid var(--primery-font-color);
   }
   @media screen and (min-width: 1280px) {
     height: 64px;
@@ -135,7 +135,7 @@ export const Button = styled.button`
   background: var(--accent-color);
   padding: 10px 91.5px 12px;
   color: var(--main-font-color);
-  font-family: 'RightGrotesk-CompactBlack';
+  font-family: 'Right Grotesk';
   font-size: 16px;
   font-weight: 900;
   line-height: 1.19;
@@ -159,7 +159,7 @@ export const ErrorSpan = styled.span`
   bottom: -12px;
   color: var(--accent-color);
   text-align: end;
-  font-family: 'MessinaSansMono-Regular';
+  font-family: 'Messina Sans Mono';
   text-transform: uppercase;
   font-size: 10px;
   line-heigh: 1.2;

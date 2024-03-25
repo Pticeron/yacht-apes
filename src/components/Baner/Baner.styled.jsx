@@ -32,13 +32,13 @@ export const MovingLine = styled.ul`
     display: flex;
     gap: 24px;
     align-items: center;
-    color: var(--main-font-color);
+    color: var(--primety-font-color);
     font-size: 18px;
     font-weight: bold;
     text-wrap: nowrap;
     white-space: nowrap;
-    color: var(--main-font-color);
-    font-family: 'RightGrotesk-CompactBlack';
+    color: var(--primery-font-color);
+    font-family: 'Right Grotesk';
     font-size: 36px;
     font-weight: 900;
     line-height: 1;

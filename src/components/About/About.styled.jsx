@@ -26,7 +26,7 @@ export const TitleWrapper = styled.div`
 `;
 
 export const AboutTitle = styled.h2`
-  font-family: 'RightGrotesk-CompactBlack';
+  font-family: 'Right Grotesk';
   font-size: 40px;
   font-weight: 900;
   line-height: 1;
@@ -54,7 +54,7 @@ export const AboutTitle = styled.h2`
 
 export const AboutDescription = styled.p`
   color: rgb(255, 255, 255);
-  font-family: 'MessinaSansMono-Regular';
+  font-family: 'Messina Sans Mono';
   font-size: 16px;
   line-height: 1.19;
   text-align: right;
@@ -97,7 +97,7 @@ export const IconWrapper = styled.div`
   margin-bottom: 40px;
 
   p {
-    font-family: 'MessinaSansMono-Regular';
+    font-family: 'Messina Sans Mono';
     font-size: 12px;
     font-weight: 400;
     line-height: 14px;

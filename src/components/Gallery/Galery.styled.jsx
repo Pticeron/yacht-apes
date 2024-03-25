@@ -19,7 +19,7 @@ export const Card = styled.li`
   flex-direction: column;
   justify-content: space-between;
   background-color: var(--secondary-background-color);
-  color: var(--main-font-color);
+  color: var(--primery-font-color);
   height: 242px;
   a {
     background-color: var(--accent-color);
@@ -40,7 +40,7 @@ export const LinkCard = styled.li`
   flex-direction: column;
   justify-content: flex-end;
   background-color: var(--accent-color);
-  color: var(--main-font-color);
+  color: var(--primery-font-color);
   height: 242px;
   position: relative;
   &:hover svg,
@@ -79,7 +79,7 @@ export const LinkCard = styled.li`
 `;
 
 export const CardTitle = styled.h2`
-  font-family: 'RightGrotesk-CompactBlack';
+  font-family: 'Right Grotesk';
   font-size: 32px;
   font-weight: 900;
   line-height: 1;
@@ -92,7 +92,7 @@ export const CardTitle = styled.h2`
 `;
 
 export const CardText = styled.p`
-  font-family: 'MessinaSansMono-Regular';
+  font-family: 'Messina Sans Mono';
   font-size: 12px;
   line-height: 1.17;
   margin-left: auto;
